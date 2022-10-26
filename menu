@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Sap Coffee Company</title>
+<link rel="stylesheet" type="text/css" href="caffeineCSS.css"/>
+<script type= "text/javascript" src= "caffeineJS.js"></script>
+</head>
+<body>
+	<div class="background" style="background-color:maroon;">
+		<h1 style="color:white; font-size: 400%;">Sap Coffee Company</h1>
+<nav>
+		<p style="text-align:center">
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/Home.html">Home</a>
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/story.html">Our Story</a>
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/menu.html">Menu</a>
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/phonenumber.html">Contact Us</a>
+		</p>
+</nav>
+	<div class= "div1" style="background-color:peru;">
+<!--Set video inside div1-->
+		<video width="700" height="400" controls poster="loading.png">
+			<source src="latteart.mp4" type="video/mp4">
+		</video>
+	</div>
+<div class="div2" style= "background-color: sandybrown;">
+<!--Create table for Coffee menu- CSS adds border table and color-->
+	<table>
+		<tr>
+			<th>Beverage
+			<th>Description
+			<th>Price
+		</tr>
+		<tr>
+			<td>Drip
+			<td>12oz hot coffee
+			<td>$2.75
+		</tr>
+		<tr>	
+			<td>Au Lait
+			<td>8oz hot coffee 4oz steamed milk
+			<td>$3.50
+		</tr>	
+		<tr>
+			<td>Espresso
+			<td>2oz double shot 
+			<td>$2.50
+		</tr>
+		<tr>
+			<td>Americano
+			<td>2oz espresso 10oz hot water
+			<td>$3.25
+		</tr>
+		<tr>
+			<td>Cortado
+			<td>2oz espresso 2oz steamed milk
+			<td>$3.25
+		</tr>
+		<tr>
+			<td>Latte
+			<td>2oz espresso 10oz steamed milk
+			<td>$4.25
+		</tr>
+		<tr>
+			<td>Cappucino
+			<td>2oz espresso 4oz steamed milk 4oz froth
+			<td>$4.25
+		</tr>
+		<tr>
+			<td>Mocha
+			<td>2oz espresso 10 oz steamed milk chocolate
+			<td>$5.00
+		</tr>
+		<tr>
+			<td>Chai 
+			<td>Chai tea 10oz steamed milk
+			<td>$4.50
+		</tr>
+		<tr>
+			<td>Pourover 
+			<td>12oz Single-origin coffee (made to order)
+			<td>Market price
+		</tr>
+		<tr>
+			<td>Cold Brew
+			<td>16oz Nitro Cold Brew(On TAP!)
+			<td>$4.50
+		</tr>
+		<tr>
+			<td>Rishi Loose-Leaf tea
+			<td>Earl Grey, Irish Breakfast, Chammomile, Mint, Green Jasmine
+			<td>$4.00
+		</tr>	
+		<tr>
+			<td>Vermont Hot cider
+			<td>Locally made mulled cider
+			<td>$5.00
+		</tr>
+	</table>
+	<p>Are you tired today? (Yes or No)<input type = "text" id = "yesorno"><button onclick= "sleepy()">Click here</button><p id="question"></p>
+</div>
+<!--Set footer with address-->
+	<footer>
+		<p><i style="color:white; font-size: 150%;">Owned and Operated in Waterbury, Vermont</i></p>
+		<p><b style= "text-align: center; font-size: 100%; color: peru;">
+		<a href="https://vtstateparks.com/hiking.html">FUEL YOUR NEXT ADVENTURE! Click here for VT trail maps!</a></b></p>
+	</footer>
+		</div>
+</body>
+</html>
