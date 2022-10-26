@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--Creating this page to provide contact information for Sap Coffee Co.-->
+<title>Sap Coffee Company</title>
+<link rel="stylesheet" type="text/css" href="caffeineCSS.css"/>
+<script type= "text/javascript" src= "caffeineJS.js"></script>
+</head>
+<body>
+<!--Creating divs for background and div1 and div2-->
+
+	<div class="background" style="background-color:maroon;">
+		<h1 style="color:white; font-size: 400%;">Sap Coffee Company</h1>
+<nav>
+		<p style="text-align:center">
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/Home.html">Home</a>
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/story.html">Our Story</a>
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/menu.html">Menu</a>
+	<a href="https://www.albany.edu/~jg318865/CINF201Assignments/phonenumber.html">Contact Us</a>
+		</p>
+</nav>	
+	<div class= "div1" style="background-color:peru;">
+	<p style = "font-size: 20px;">Our team at a Counter Culture Coffee tasting!</p>
+<!--Adding image to div1-->
+		<img src="team.png" alt="Tasting with the Team" width="600" height="300">
+	</div>
+		
+			<div class="div2" style= "background-color: sandybrown;">
+<!--Adding unordered list for contact information-->
+		<ul>
+				
+			<li style="font-size:25px;">| Phone number | 802.126.3333</li>
+				
+			<li style="font-size: 25px;">| HQ Address | 232 Main Street Waterbury, Vermont</li>
+				
+			<li style="font-size: 25px;">| Hours of Operation | M-F 7am-3pm S-Sun 8am-4pm</li>
+				
+			<li style="font-size: 25px;">| Want to come work with us?</li>
+			
+		</ul>
+			<a href="https://www.albany.edu/~jg318865/CINF201Assignments/application.html">Apply Here!</a>
+			</div>
+	<footer>
+			<p><i style="color:white; font-size: 150%; text-align: center;">Owned and Operated in Waterbury, Vermont</i></p>	
+			<p><b style= "text-align: center; font-size: 100%; color: peru;">
+		<a href="https://vtstateparks.com/hiking.html">FUEL YOUR NEXT ADVENTURE! Click here for VT trail maps!</a></b></p>
+	</footer>
+</div>
+</body>
+</html>
